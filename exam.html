@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* Scrollbar track */
+
+
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    ::-webkit-scrollbar {
+      width: 12px;
+      /* Width of vertical scrollbar */
+      height: 12px;
+      /* Height of horizontal scrollbar */
+      scroll-behavior: smooth;
+    }
+
+    /* Scrollbar track background */
+    ::-webkit-scrollbar-track {
+      background: #f0f0f0;
+      /* Light gray track */
+      border-radius: 10px;
+    }
+
+    /* Scrollbar thumb (the draggable part) */
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #6a11cb, #2575fc);
+      /* Gradient from purple to blue */
+      border-radius: 10px;
+      border: 3px solid #f0f0f0;
+      /* Adds padding around thumb */
+    }
+
+    /* Scrollbar thumb on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(180deg, #2575fc, #6a11cb);
+    }
+
+
+    /* reusable code*/
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    a {
+      color: #333;
+      font-family: "Baloo Bhai 2", sans-serif;
+      /* all p color */
+    }
+
+    /* Header start*/
+
+    .header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1c1628;
+      background-color: #fff;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 0 4rem;
+    }
+
+    .header img {
+      width: 80px;
+    }
+
+    .header h2 {
+      color: #050505;
+      text-transform: uppercase;
+    }
+
+    /* header End*/
+
+    /* hero section start*/
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 12rem;
+      margin: 2rem auto;
+    }
+
+    .hero-section .text h1 {
+      font-size: 3rem;
+      color: #555;
+
+      text-transform: capitalize;
+      letter-spacing: 1px;
+      margin-bottom: 1.3rem;
+    }
+
+    .hero-section .text p {
+
+      font-size: 1rem;
+      max-width: 500px;
+      letter-spacing: 0.6px;
+      line-height: 1.6;
+    }
+
+    .hero-bg--img img {
+      width: 250px;
+      border-radius: 8px;
+    }
+
+    /* hero section end*/
+
+    .details {
+      margin-top: 4rem;
+      display: flex;
+      gap: 30px;
+      padding: 50px 10%;
+    }
+
+    .personal-details,
+    .bio-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      width: 49%;
+      margin: 0 auto;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 5px;
+      padding: 1.5rem 3rem;
+      line-height: 2rem;
+      letter-spacing: 0.6px;
+      font-family: sans-serif;
+    }
+
+    .bio-box h3 {
+      text-transform: capitalize;
+    }
+
+    .bio-box h3 span {
+      color: #007bff;
+    }
+
+    .bio-box h4 {
+      text-transform: capitalize;
+      font-family: "Great Vibes", cursive;
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .contact {
+      text-align: center;
+
+      text-transform: capitalize;
+      padding: 1rem 2rem;
+    }
+
+    .contact h3 {
+      letter-spacing: .6px;
+      margin-bottom: 1rem;
+    }
+
+
+    .contact .contact-info {
+      margin: 3rem 0;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      line-height: 1.8rem;
+
+    }
+
+    .contact .contact-info h4 {
+      font-weight: bold;
+      letter-spacing: .7px;
+
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+
+
+
+
+
+    /*typing effect */
+
+ 
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo-img">
+      <img src="" alt="Logo Loading" srcset="" />
+    </div>
+    <div class="header-text">
+      <h2>profile</h2>
+    </div>
+  </div>
+
+  <!-- header end  -->
+
+  <!-- hero section start  -->
+  <div class="container hero-section">
+    <div class="text">
+      <h1>Here i'am Hasnat fahmid</h1>
+
+      <p>
+        Obviously I'm a Web Designer. Web Developer with over 3 years of
+        experience. Experienced with all stages of the development
+      </p>
+    </div>
+
+    <div class="hero-bg--img">
+      <img src="/photos/hero-bg--right.jpg" alt="" />
+    </div>
+  </div>
+  <!-- hero section end  -->
+
+  <div class="details">
+    <div class="personal-details">
+      <h3>Personal Details</h3>
+      <p><strong>Email:</strong> queue12@gmail.com</p>
+      <p><strong>Languages:</strong> English</p>
+      <p><strong>Nationality:</strong> Australian</p>
+    </div>
+
+    <div class="bio-box">
+      <h3>I Am <span>web Developer</span></h3>
+      <p>
+        Obviously I'm a Web Designer. Web Developer with over 3 years of
+        experience. Experienced with all stages of the development cycle for
+        dynamic web projects. The as opposed to using 'Content here, content
+        here', making it look like readable English.
+      </p>
+
+      <h4>Hasnat fahmid</h4>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h3>Contact me</h3>
+    <p>
+      Obviously I'm a Web Designer. Experienced with all stages of the
+      development cycle for dynamic web products.
+    </p>
+
+    <div class="contact-info">
+      <div>
+        <i class="fa-solid fa-phone"></i>
+        <h4>Phone</h4>
+        <p>+1127 534-669-854</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-phone"></i>
+        <h4>Email</h4>
+        <p>contact@example.com</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-location-dot"></i>
+        <h4>Location</h4>
+        <p>C 184 Northwest Freeway, Suite 588, Houston, USA - 485</p>
+        <a href="#">View on Google map</a>
+      </div>
+    </div>
+
+
+</body>
+
+</html>
