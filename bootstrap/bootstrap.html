@@ -45,6 +45,7 @@
       </div>
     </div>
   </nav>
+  
   <!-- <div class="container">
     <div class="row">
       <div class="col-sm-2 col-lg-3-12 col-sm-2 col-lg-3-sm-6 col-sm-2 col-lg-3-lg-3">
@@ -81,16 +82,60 @@
     <h2 class="text-info text-uppercase">Centered Image</h2>
     <p class="fs-4">Center an image by adding the utility classes .mx-auto(margin-auto) and .d-block (display:block) to
       the image.</p>
-    <img src="assets/img8.jpg" alt="image not found!" style="width: 50%; border-radius: 10px;" class="d-block mx-auto">
+    <!-- <img src="assets/img8.jpg" alt="image not found!" style="width: 50%; border-radius: 10px;" class="d-block mx-auto"> -->
+
+
+  
+
+  </div>
+
+  <!-- modal  -->
+
+  <!-- Button to Open the Modal -->
+
+  <!-- The Modal -->
+  <div class="container">
+
   </div>
 
   <div class="container mt-3">
     <h2 class="text-center mt-2">Example of Jumbotron</h2>
-    <div class="bg-primary my-3 p-3 text-white p-5 rounded">
-      <h1>Jumbotron </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit explicabo quae accusamus commodi autem
+    <div class="bg-primary my-3 p-3 p-5 rounded">
+      <h1 class="text-white">Jumbotron </h1>
+      <p class="text-white">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit explicabo quae
+        accusamus commodi autem
         quaerat eum nesciunt aliquid corporis!
       </p>
+      <!-- Button trigger modal -->
+      <div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Don't Open It
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">You are hacked bro!!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eos laborum qui tempore blanditiis
+                  dignissimos maiores incidunt. Consectetur, debitis enim earum quisquam facere quaerat dicta tempora
+                  consequuntur doloribus, nostrum sint.
+                </p>
+              </div>
+              <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

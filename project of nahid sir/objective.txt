@@ -1,0 +1,7 @@
+1. full width navbar -- with dropdown, logo or name
+2. carousel effect -- 4 images same width and height, text 
+3. about us -- text left photo right
+4. card -- 6 cards 2row 3 columns with photo and text
+5. form -- text with form
+6. Accordion -- FAQ
+7. footer -- copyright with background 
